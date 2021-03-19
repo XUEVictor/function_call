@@ -15,7 +15,6 @@ void swap_CBF(int &a, int &b)
     b = a;
     a = temp;
 }
-
 std::pair<int, int> swap_CBV(int a, int b)
 {
     printf("In funtion Value_1_Addr = %p , Value_2_Addr = %p \n", &a, &b);
@@ -75,5 +74,7 @@ void callbyValue()
 // output 20,10
 int main()
 {
+    // callbyAddress();
+    // callbyReference();
     callbyValue();
 }
